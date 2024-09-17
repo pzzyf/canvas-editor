@@ -1,0 +1,24 @@
+{
+  "name": "@afe1/eslint-config",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "exports": {
+    ".": "./eslint.config.mjs",
+    "./types": "./index.d.ts"
+  },
+  "main": "eslint.config.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.6.2",
+    "eslint": "^9.10.0"
+  }
+}
